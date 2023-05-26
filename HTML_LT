@@ -1,0 +1,914 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Express Guest House</title>
+<!-- del telefono -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resort Inn Responsive , Smartphone Compatible web template , Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" href="css/Home.css" />
+<link rel="stylesheet" href="css/nicepage.css" />
+<link rel="stylesheet" href="css/About.css" />
+<link rel="stylesheet" href="css/contact.css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- <link href="css/contact.css" rel="stylesheet" type="text/css" media="all" /> -->
+<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+<!-- <script type="text/javascript" src="js/nicepage.js"></script> -->
+<!-- <script type="text/javascript" src="js/jquery.js"></script> -->
+
+<link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+</head>
+<body>
+<!-- header -->
+
+	<div class="w3_navigation col-md-12 cus" style="padding-left:0px;padding-right:0px;">
+		<div class="container col-md-12" style="padding-left:0px;padding-right:0px;">
+			<nav class="navbar navbar-default col-md-12" style="padding-left:0px;padding-right:0px; padding-top: 0px; padding-bottom:0px;">
+				<div class="navbar-header navbar col-md-12" style="padding-left:0px;padding-right:0px;">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- <h1 class="h1_cus" style="text-align:center; "><a class="navbar-brand cus_brand col-md-12" href="index.html" style="margin:0 auto; float: none; "><p style="font-family: 'Alex Brush';">EXPRESS GUEST </p><p style="font-family: 'Alex Brush';"> &nbsp;HOUSE </p> </a></h1> -->
+
+				</div>
+				<!--  the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="menu menu--iris">
+						<ul class="nav navbar-nav menu__list">
+							<li class="menu__item menu__item--current"><a href="" class="menu__link">Kambariai</a></li>
+							<li class="menu__item"><a href="#parking" class="menu__link scroll">Automobilių aikštelė</a></li>
+							<li class="menu__item"><a href="#policies" class="menu__link scroll">Nuostatai</a></li>
+							<li class="menu__item"><a href="#location" class="menu__link scroll">Mūsų vieta</a></li>
+							<li class="menu__item"><a href="#contact" class="menu__link scroll">Kontaktai</a></li>
+							<li class="menu__item"><a href="#about" class="menu__link scroll">Apie Mus</a></li>
+							<li class="menu__item"><a href="index.html" class="menu__link"><img class="cus_flag" src="images/uk-flag.png" /> Eng</a></li>
+							<li class="menu__item"><a href="index1.html" class="menu__link "><img class="cus_flag" src="images/li-flag.png" /> LT</a></li>
+							<li class="menu__item"><a href="index2.html" class="menu__link "><img class="cus_flag" src="images/ru-flag.png" /> Ru</a></li>
+						</ul>
+					</nav>
+				</div>
+			</nav>
+
+		</div>
+	</div>
+<!-- //header -->
+		
+<!--//Header-->
+
+<section class="u-align-center u-clearfix u-image u-section-1" id="carousel_4d0a">
+	<div class="u-clearfix u-sheet u-sheet-1 col-md-12">
+	    <h1 class="u-custom-font u-font-arial u-text u-title u-text-1">
+	      <span class="u-text-palette-1-base">E</span>
+	      <span class="u-text-palette-2-base">X</span>
+	      <span class="u-text-palette-1-base">PRESS</span>
+	    </h1>
+	    <h4 class="u-custom-font u-font-arial u-text u-text-palette-2-base u-text-2">Guest House&nbsp;</h4>
+	    <a href="tel:+37067244166" class="u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-3-base u-radius-50 u-btn-1"><span class="u-icon"><svg class="u-svg-content" viewBox="0 0 513.64 513.64" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72 c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68 c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44 l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"></path></svg></span>&nbsp;Paskambink dabar
+	    </a>
+	</div>
+</section>
+<div class="about-wthree" id="about">
+  	<div class="container col-md-12">
+	   <div class="ab-w3l-spa">
+            <div class="col-md-6">
+            	<h3 style="text-align: center; margin-bottom: 0px ;" class="title-w3-agileits title-black-wthree ">Apie Mus</h3> 
+	            <div class="col-md-12 text-center">
+	                <p class="about-para-w3ls">"Express Guest House" butikinis viešbutis senamiesčio širdyje yra įtrauktas į Klaipėdos architektūros paveldą, tad kiekvienas kambarys yra unikalus. Viešbučio pastatas, statytas XVII a., turi autentiškas istorines sienas, patalpų išplanavimą ir jaukų interjerą. Puiki senamiesčio aplinka su senoviniais namų dekoro intarpais sukuria jaukią atmosferą. Netoliese yra garsioji Teatro aikštė, kurioje susirenka vietiniai ir miesto svečiai, taip pat Danės upės pakrantė su populiariausiais miesto restoranais, klubais, kavinėmis ir parduotuvėmis.</p>                            
+				   <hr>
+	            </div> 
+            </div>
+            <div class="col-md-6" style="text-align:left ;">            	
+		   <img src="images/ABOUT US.jpg" class="img-responsive text-left" alt="Hair Salon"  style="width:100% ;" />
+            </div>               
+      	</div>
+    </div>
+   	<div class="clearfix"> </div>
+</div>
+<section class="photo_gallery_walls u-align-center u-border-1 u-border-grey-75 u-clearfix u-lightbox u-palette-1-light-3 u-section-2" id="sec-90e0">
+	  <div class="u-clearfix u-sheet u-sheet-2 col-md-12">
+	  	<h2 class="u-subtitle u-text u-text-default u-text-palette-1-base u-text-1">Unikalios XVII amžiaus sienos </h2>
+	  	<div class="col-md-6">
+	  		<div class="col-md-12">	  		
+			    <p class="u-text u-text-default u-text-2">"Express Guest House“ boutique viešbutis priklauso Klaipėdos miesto architektūros paveldui, todėl kiekvienas kambarys yra unikalus. Išsaugotos autentiškos istorinės pastato sienos, XVIII a. statyto viešbučio patalpų išplanavimas. Mūsų svečiai galėjo mėgautis puikia senamiesčio aplinka ir vintažiniais namų dekoro intarpais, kurie kartu sukuria jaukią atmosferą.<br>Dėl patogios geografinės padėties lankomiausios miesto vietos yra lengvai pasiekiamos.
+			    </p>
+		  	</div>
+	  	</div>
+	  	<div class="col-md-6"> 
+	  		<div class="col-md-12">
+	  		<!-- banner-text -->
+				<div class="slider" style="margin : 20px">
+					<div class="callbacks_container">
+						<ul class="rslides callbacks callbacks1" id="slider3">
+							<li>
+								<div class="w3layouts-banner-top">
+
+									<div class="container u-carousel-item u-clearfix u-section-3-2">
+											<img class="u-image u-image-round u-radius-10 " src="images/IMG_6104.jpg" style="float:none; margin:0 auto; width: 100%; height:100% ;">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="w3layouts-banner-top w3layouts-banner-top1">
+									<div class="container u-carousel-item u-clearfix u-section-3-3">
+											<img class="u-image u-image-round u-radius-10 " src="images/IMG_61472.jpg"  style="float:none; margin:0 auto;width: 100%; height:100% ;">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="w3layouts-banner-top w3layouts-banner-top2">
+									<div class="container u-carousel-item u-clearfix u-section-3-4">
+											<img class="u-image u-image-round u-radius-10  " src="images/IMG_61091.jpg"  style="float:none; margin:0 auto;width: 100%; height:100% ;">	
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+					<!--banner Slider prasideda cia-->
+				</div>
+		  	</div>
+		 </div>
+	    
+	  </div>
+</section>
+<!-- banner -->
+<div id="home" class="w3ls-banner col-md-12">
+	<!-- banner-textas -->
+	<div class="slider">
+		<div class="callbacks_container">
+			<ul class="rslides callbacks callbacks1" id="slider4">
+				<li>
+					<div class="w3layouts-banner-top">
+
+						<div class="container u-carousel-item u-clearfix u-section-3-2">
+							<div class="agileits-banner-info u-clearfix u-image u-sheet u-image-1">
+								<h1 class="u-custom-font u-text u-text-default u-title u-text-1 cus_rooms">Kambariai</h1>
+		        <a href="https://www.booking.com/Share-mxn5WC" class="u-btn u-button-style u-palette-3-light-1 u-btn-1">UŽSAKYTI DABAR</a>
+							</div>	
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="w3layouts-banner-top w3layouts-banner-top1">
+						<div class="container u-carousel-item u-clearfix u-section-3-3">
+							<div class="agileits-banner-info u-clearfix u-image u-sheet u-image-1">
+								<h1 class="u-custom-font u-text u-text-default u-title u-text-1 cus_rooms">Kambariai</h1>
+		        <a href="https://www.booking.com/Share-mxn5WC" class="u-btn u-button-style u-palette-3-light-1 u-btn-1">UŽSAKYTI DABAR</a>
+							</div>	
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="w3layouts-banner-top w3layouts-banner-top2">
+						<div class="container u-carousel-item u-clearfix u-section-3-4">
+							<div class="agileits-banner-info u-clearfix u-image u-sheet u-image-1">
+								<h1 class="u-custom-font u-text u-text-default u-title u-text-1 cus_rooms">Kambariai</h1>
+			        <a href="https://www.booking.com/Share-mxn5WC" class="u-btn u-button-style u-palette-3-light-1 u-btn-1">UŽSAKYTI DABAR</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="w3layouts-banner-top w3layouts-banner-top2">
+						<div class="container u-carousel-item u-clearfix u-section-3-5">
+							<div class="agileits-banner-info u-clearfix u-image u-sheet u-image-1">
+								<h1 class="u-custom-font u-text u-text-default u-title u-text-1">Kambariai</h1>
+			        <a href="https://www.booking.com/Share-mxn5WC" class="u-btn u-button-style u-palette-3-light-1 u-btn-1">UŽSAKYTI DABAR</a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clearfix"> </div>
+		<!--banner Slider prasideda cia-->
+	</div>
+</div>		
+<!-- //banner --> 
+
+<section class="u-clearfix u-image u-section-4 col-md-12" id="sec-28e6" >
+	<div class="col-md-12 text-center">
+		<img src="images/image_2023_03_23T11_55_35_157Z.png" style="width: 100% ; " />
+	</div>
+</section>		
+
+
+<!-- type 1 -->
+<div class="col-md-12" style="padding-top: 60px ; padding-bottom: 20px ;">
+	<div class="col-md-12">		
+		<h2 class="text-center">Kambarių tipai:</h2>
+		<div class="col-md-12" style="padding-bottom:20px;padding-top:20px;"><h3>
+			<p>1. Vienvietis kambarys su bendru dušu ir bendra virtuve</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px; ">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/kitchen 2.png">
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 2 -->
+<div class="col-md-12" style="padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>2. Vienvietis su kambarys su privačiu dušu</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/kitchen 2.png">
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 3 -->
+<div class="col-md-12" style="padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>3. Dvivietis kambarys su bendru dušu ir bendra virtuve</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/washing machine.png">
+					<img class="img_cus" src="images/kitchen 2.png">
+					<img class="img_cus" src="images/microwave.png">
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 4 -->
+<div class="col-md-12" style="padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>4. Dvivietis kambarys su privačiu vonios kambariu (2 atskiros lovos)</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 5 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>5. Dvivietis kambarys su privačiu vonios kambariu (1 dvigulė lova)</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/Double bed.png">					
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 6 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>6. Trivietis kambarys su bendru dušu ir bendra virtuve</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/kitchen 2.png">
+					<img class="img_cus" src="images/microwave.png">	
+					<img class="img_cus" src="images/Fridge.png">			
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 7 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>7. Trivietis kambarys su privačiu vonios kambariu</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">			
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">	
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 8 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>8. Šeimos kambarys 2 + 1 su privačiu vonios kambariu</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/Double bed.png">
+					<img class="img_cus" src="images/single bed.png">			
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">	
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 9 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>9. Šeimos kambarys 2 + 2 su privačiu vonios kambariu</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/Double bed.png">
+					<img class="img_cus" src="images/Double bed.png">			
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">	
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 10 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>10. Keturvietis kambarys su privačiu vonios kambariu</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">			
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">	
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 11 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>11. Keturvietis kambarys su bendru dušu ir bendra virtuve</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<!-- <img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">			
+					<img class="img_cus" src="images/single bed.png">
+					<img class="img_cus" src="images/single bed.png">					
+					<img class="img_cus" src="images/washing machine.png">									
+					<img class="img_cus" src="images/kitchen 2.png">
+					<img class="img_cus" src="images/Coffee tea.png">
+					<img class="img_cus" src="images/microwave.png">	
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png"> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 12 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>12. Studija su virtuve ir privačiu vonios kambariu</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/Double bed.png">
+					<img class="img_cus" src="images/single bed.png">								
+					<img class="img_cus" src="images/kitchen 2.png">
+					<img class="img_cus" src="images/microwave.png">
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/Coffee tea.png">	
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- type 13 -->
+<div class="col-md-12" style=" padding-bottom: 20px ;">
+	<div class="col-md-12">
+		<div class="col-md-12" style="padding-bottom:20px;"><h3>
+			<p>13. Studijos tipo apartamentai su virtuve ir privačiu vonios kambariu</p></h3>
+		</div>
+		<div class="col-md-6" style="padding-bottom:20px;">
+			<div class="col-md-12" style="border-right: 1px solid gray;">
+				<div class="col-md-12 text-center"  style="padding-bottom:20px;  ">
+					<img class="img_cus" src="images/Double bed.png">
+					<img class="img_cus" src="images/single bed.png">	
+					<img class="img_cus" src="images/single bed.png">	
+					<img class="img_cus" src="images/single bed.png">	
+					<img class="img_cus" src="images/single bed.png">								
+					<img class="img_cus" src="images/kitchen 2.png">
+					<img class="img_cus" src="images/microwave.png">
+					<img class="img_cus" src="images/Fridge.png">
+					<img class="img_cus" src="images/Coffee tea.png">	
+					<img class="img_cus" src="images/shampoo and soap.png">
+					<img class="img_cus" src="images/wifi internet.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"  style="padding-bottom:20px;">			
+			<div class="col-md-12 text-center">
+				<a class="col-md-12 text-center" style="background-color: #c48a3d;padding-top: 10px; padding-bottom: 10px;" href="https://www.booking.com/Share-mxn5WC">
+					<span class="span_cus">UŽSAKYTI DABAR</span> 
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- /apie mus -->
+<div class="about-wthree" id="policies">
+	<div class="container col-md-12">
+	   <div class="ab-w3l-spa">
+            <h3 class="title-w3-agileits title-black-wthree">Nuostatai</h3> 
+            <div class="col-md-6 text-left">
+            	<h4 class="cus_h4">Įsiregistravimo ir Išsiregistravimo laikas</h4>
+                <li>Atvykimas nuo 15:30 iki 23:59</li>
+                <li>Išvykimas iki 10:00</li>
+                <li>Anksčiau ir vėliau įsiregistruoti / išsiregistruoti galima iš anksto informavus</li>
+                <li>Savarankiškai įsiregistruoti ir išsiregistruoti galima iš anksto informavus </li>
+			   <hr>
+			   <h4 class="cus_h4">Internetas</h4>
+                <li>Bevielis internetas veikia visose patalpose ir yra nemokamas</li>	                            
+			   <hr>     
+            </div>
+            <div class="col-md-6 text-left">
+			   <h4 class="cus_h4">Papildomos lovos</h4>
+                <li>Galimos papildomos lovos kambariuose, kaina 25 eur už naktį ( iš anksto informavus - pristatymas priklauso nuo užimtumo)</li>	
+			   <hr>
+			   <h4 class="cus_h4">Mokėjimas</h4>
+                <li>Visa, Mastercard, American Express, Maestro</li>
+                <li>Bankiniu pavedimu</li>
+                <li>Atsiskaitymas grynaisiais (atsiskaitymas grynaisiais priimamas tik administracijos darbo laiku iki   19: 00)</li>
+                <li>Sąskaitos įmonėms išrašomos paprašius</li>
+			   <hr>
+            </div>                
+		</div>
+  	</div>
+   	<div class="clearfix"> </div>
+</div>
+
+
+
+<div class="about-wthree col-md-12" id="pets">
+	<div class="container col-md-12">
+		<h3 class="title-w3-agileits title-black-wthree" style="">Augintiniai</h3> 
+	   <div class="ab-w3l-spa">
+            
+        <div class="col-md-6" style="text-align:left ;">            	
+			   <img class="text-left" style="width:100% ;" src="images/pets_1.jpg">
+        </div> 
+	   	<div class="col-md-6">            	
+	            <div class="col-md-12 text-left">
+	                <p  class="about-para-w3ls">Keliaujant su gyvūnais, rasti draugišką gyvūnams viešbutį gali būti iššūkis! Laimei, Express Guest House supranta, kad gyvūnai yra šeimos dalis ir priima juos atvira širdimi. Gyvūnams draugiškas viešbutis užtikrins, kad  Viešnagė su gyvūnais butų maloni ir be streso tiek gyvūnų savininkams, tiek jų keturkojams draugams. Jei planuojate kelionę su savo gyvūnu, būkite tikri, kad gyvūnai yra leidžiami ir kainuoja 9 Eur už gyvūną už naktį.</p>
+	            </div>    
+            </div>               
+         </div>
+  	</div>
+   	<div class="clearfix"> </div>
+</div>
+
+<div class="about-wthree" id="parking">
+  	<div class="container col-md-12">
+	   <div class="ab-w3l-spa">
+            <div class="col-md-6">
+            	<h3 style="padding-top:200px ;" class="title-w3-agileits title-black-wthree cus_parking">Parkavimas</h3> 
+	            <div class="col-md-12 text-center">
+	                <p  class="about-para-w3ls">Automobilio stovėjimo vieta turi būti užsakyta iš anksto, galimybe priklauso nuo užimtumo. Automobilius galima statyti gatvėje: kaina 0,70 eur/ val nuo 8:00 iki 18:00</p>                            
+				   <hr>
+	            </div> 
+            </div>
+            <div class="col-md-6" style="text-align:left ;">            	
+				   <img class="text-left" style="width:70% ;" src="images/park.png">
+            </div>               
+      	</div>
+    </div>
+   	<div class="clearfix"> </div>
+</div>
+<div class="about-wthree" id="location">
+  	<div class="container">
+	   <div class="ab-w3l-spa">
+           <h3 class="title-w3-agileits title-black-wthree">Mūsų vieta</h3> 
+		   <p class="about-para-w3ls">Express Guest House yra įsikūręs senamiesčio širdyje, šalia Baltijos jūros. Dėl patogios geografinės padėties, lankomiausios miesto vietos lengvai pasiekiamos.</p>
+		   <div class="col-md-5 text-left"  style="margin-left: 10px;">
+		   		<li>Jono kalnelis (200 m)</li>
+	            <li>Klaipėdos Senamiestis (200 m)</li>
+	            <li>Teatro aikštė (700 m)</li>
+	            <li>Klaipėdos Pilies vėtrungė (300 m) </li>
+	            <li>Maisto prekės (200 m)</li>
+	            <li>Autobusų stotis (1,0 km)</li>
+	            <li>Smiltynės perkelė (800m)</li>
+	            <li>Delfinariumas (1,8 km) </li>
+	            <li>Melnragės paplūdimys (3,7 km) </li>
+	            <p>Oro uostas : Palanga (34 km)</p>
+		   </div>
+		   <div class="col-md-5 text-left" >		   		
+	            <video class="cus_video" width="640" height="360" controls autoplay loop >
+				  	<source src="images/OUR LOCATION VIDEO.webm" type="video/webm">
+				</video>
+		   </div>
+      	</div>
+    </div>
+   	<div class="clearfix"> </div>
+</div>
+ 	<!-- //apie  -->
+
+
+<!-- kontaktai -->
+<section class="contact-w3ls" id="contact">
+	<div class="container">
+		<div class="col-lg-12 col-md-12 col-sm-12 contact-w3-agile2" data-aos="flip-left">
+			<div class="contact-agileits">
+
+				<div class="map-wrapper">
+				<div class="google-map col-md-4" id="google-map" style="height:550px;">
+					<!-- <a href="https://maps.googleapis.com/maps/api/js?key=&amp;callback=initializeMap" target="_blank"></a> -->
+				</div>
+				<div class="col-md-4">
+					<h4 class="cus_meet">Susipažinkite su mumis</h4>
+						<div class="control-group form-group">	                        
+	                            <label class="contact-p1"><i class="fa fa-phone red" aria-hidden="true"></i> Telefonas</label>
+	                            <p class="white">+370 67244 166</p>
+	                            <p class="white">+370 656 18 817</p>	                       
+	                    </div>	<br />
+	                    <div class="control-group form-group">
+	                        
+                            <label class="contact-p1"><i class="fa fa-map-marker red" aria-hidden="true"></i> Mūsų vieta</label>
+							<p class="white">Puodžių g. 17, 92125 Klaipėda</p>
+							
+	                    </div>
+	                    <br />
+	                    <div class="control-group form-group">
+							
+	                    </div>
+						
+				</div>
+				<div class="col-md-4">
+
+					<h4 class="cus_get">Susisiekti</h4>
+					<form action="mailto:litinterp.guest@gmail.com " enctype="text/plain"   method="post" name="sentMessage" id="contactForm" >
+						<div class="control-group form-group">
+	                        
+			                            <label class="contact-p1"><p>Vardas:</p></label>
+			                            <input type="text" class="form-control" placeholder="Įveskite savo vardą" name="name" id="name" required >
+			                            <p class="help-block"></p>
+			                       
+			                    </div>	
+			                    <div class="control-group form-group">
+			                        
+			                            <label class="contact-p1"><p>El. paštas:</p></label>
+			                            <input type="email" class="form-control" placeholder="Įveskite galiojantį el. pašto adresą" name="email" id="email" required >
+										<p class="help-block"></p>
+									
+			                    </div>
+			                    <div class="control-group form-group">
+			                        
+			                            <label class="contact-p1"><p>Kaip mes galime padėti?</p></label>
+			                            <textarea type="tel"  class="form-control" name="phone" id="phone" required ></textarea> 
+										<p class="help-block"></p>
+									
+			                    </div>
+			                    
+			                    <input type="submit" name="sub" value="Išsiusti dabar" class="btn btn-primary">	
+					</form>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div class="clearfix"></div>
+	</div>
+</section>
+<!-- /kontaktai -->
+<div class="copy col-md-12">
+	<div class="col-md-12">
+		<div class="col-md-6">
+			<p>© 2023 Express <span>Guest House. All Rights Reserved </p>
+		</div>
+		<div class="col-md-6 cus_footer_visa">
+			<p style="margin-top:0px"><img src="images/footer_logo.JPG"></p>
+			
+		</div>
+	</div>
+  
+</div>
+<!--/footer -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- contact form -->
+<script src="js/jqBootstrapValidation.js"></script>
+
+<!-- /kontaktine forma -->	
+
+		<script src="js/jquery-ui.js"></script>
+		<script>
+				$(function() {
+				$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+				});
+		</script>
+
+<!-- gallerojos popup -->
+<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+<!-- //gallerijos popup -->
+<!-- pradeti scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- pradeti scrolling -->
+<!-- flexSlider -->
+				<script defer src="js/jquery.flexslider.js"></script>
+				<script type="text/javascript">
+				$(window).load(function(){
+				  $('.flexslider').flexslider({
+					animation: "slide",
+					start: function(slider){
+					  $('body').removeClass('loading');
+					}
+				  });
+				});
+			  </script>
+			<!-- //flexSlider -->
+<script src="js/responsiveslides.min.js"></script>
+			<script>
+						// galima naudoti ir "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider4").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+						  // Slideshow 3
+						  $("#slider3").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+			</script>
+		<!--search-->
+		<script src="js/main.js"></script>	
+<!--//search-->
+<!--tabs-->
+<script src="js/easy-responsive-tabs.js"></script>
+<script>
+$(document).ready(function () {
+$('#horizontalTab').easyResponsiveTabs({
+type: 'default', //Types: default, vertical, accordion           
+width: 'auto', //auto arba bet koks width  600px
+fit: true,   // 100% kad tilptu i container
+closed: 'accordion', // Start closed 
+activate: function(event) { // Callback funckcija jei lentele isjungta
+var $tab = $(this);
+var $info = $('#tabInfo');
+var $name = $('span', $info);
+$name.text($tab.text());
+$info.show();
+}
+});
+$('#verticalTab').easyResponsiveTabs({
+type: 'vertical',
+width: 'auto',
+fit: true
+});
+});
+</script>
+<!--//tabs-->
+<!-- scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+										
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	
+	<div class="arr-w3ls">
+	<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+<!-- //scrolling -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/location.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMmuBHWbqZzpMOtgUg2i_dMdJ2Pf1PogY&amp;callback=initializeMap" async defer></script>
+
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=&amp;callback=initializeMap"></script> -->
+
+</body>
+</html>
+
+
